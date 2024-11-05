@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to C Programming",
+        "description": "Learn the fundamentals of C programming, including syntax, data types, and control structures.",
+        "cover_img": "https://example.com/images/introduction_to_c.jpg",
+        "course_price": 99.99,
+        "credit_hour": 3
+    },
+    {
+        "id": 2,
+        "title": "Introduction to Algorithms",
+        "description": "Discover algorithm design and analysis techniques, focusing on sorting, searching, and optimization.",
+        "cover_img": "https://example.com/images/introduction_to_algorithms.jpg",
+        "course_price": 129.99,
+        "credit_hour": 4
+    },
+    {
+        "id": 3,
+        "title": "Introduction to C++ for DSA",
+        "description": "Explore C++ programming with a focus on data structures and algorithms (DSA) implementation.",
+        "cover_img": "https://example.com/images/introduction_to_cpp_dsa.jpg",
+        "course_price": 119.99,
+        "credit_hour": 4
+    },
+    {
+        "id": 4,
+        "title": "Basic Data Structures",
+        "description": "Understand fundamental data structures, including arrays, linked lists, stacks, and queues.",
+        "cover_img": "https://example.com/images/basic_data_structures.jpg",
+        "course_price": 109.99,
+        "credit_hour": 3
+    },
+    {
+        "id": 5,
+        "title": "Introduction to OOP Python",
+        "description": "Learn the principles of Object-Oriented Programming (OOP) using Python programming language.",
+        "cover_img": "https://example.com/images/introduction_to_oop_python.jpg",
+        "course_price": 139.99,
+        "credit_hour": 4
+    },
+    {
+        "id": 6,
+        "title": "Software Engineering",
+        "description": "Gain insights into software development processes, methodologies, and best practices.",
+        "cover_img": "https://example.com/images/software_engineering.jpg",
+        "course_price": 159.99,
+        "credit_hour": 5
+    },
+    {
+        "id": 7,
+        "title": "AWS, Cloud Computing",
+        "description": "Understand the fundamentals of cloud computing and learn to use Amazon Web Services (AWS).",
+        "cover_img": "https://example.com/images/aws_cloud_computing.jpg",
+        "course_price": 179.99,
+        "credit_hour": 4
+    },
+    {
+        "id": 8,
+        "title": "Database (MySQL)",
+        "description": "Learn how to manage and query databases using MySQL, including database design and normalization.",
+        "cover_img": "https://example.com/images/database_mysql.jpg",
+        "course_price": 119.99,
+        "credit_hour": 3
+    },
+    {
+        "id": 9,
+        "title": "Problem-Solving Part",
+        "description": "Enhance your problem-solving skills and techniques for tackling programming challenges effectively.",
+        "cover_img": "https://example.com/images/problem_solving.jpg",
+        "course_price": 89.99,
+        "credit_hour": 2
+    }
+]
