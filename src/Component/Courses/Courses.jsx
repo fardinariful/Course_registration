@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
-
-const Courses = () => {
+import PropTypes from 'prop-types';
+const Courses = ({handleclick1}) => {
  const [courses,setcourses]=useState([]);
  useEffect(()=>
  {
@@ -18,7 +18,7 @@ const Courses = () => {
             <h3>Courses:{courses.length}</h3>
             <div className="w-2/3 grid grid-cols-3 gap-x-52 gap-y-4 ">
             {
-                courses.map((course,idx)=> <Course key={idx} course={course}></Course>)
+                courses.map((course,idx)=> <Course key={idx} course={course} handleclick1={handleclick1}></Course>)
             }
             </div>
             
@@ -26,4 +26,9 @@ const Courses = () => {
     );
 };
 
+
+Courses.propTypes={
+    handleclick1:PropTypes.func
+   
+  }
 export default Courses;
