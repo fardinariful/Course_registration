@@ -2,16 +2,16 @@ import PropTypes from 'prop-types';
 const Course = ({course}) => {
     const {title,description,course_price,cover_img}=course;
     return (
-        <div>
-        <div className="card bg-base-100 w-96 shadow-xl">
-       <figure className="px-10 pt-10">
+       
+        <div className="card bg-base-100 w-64  shadow-xl">
+       <figure className="px-4 pt-8">
        <img
       src={cover_img}
       alt=""
       className="rounded-xl" />
        </figure>
-  <div className="card-body items-center ">
-    <h2 className="card-title">{title}</h2>
+  <div className="m-4 items-center ">
+    <h2 >{title}</h2>
     <p>{description}?</p>
     <p>${course_price}</p>
     <div className="card-actions w-full ">
@@ -20,7 +20,7 @@ const Course = ({course}) => {
   </div>
 </div>
             
-        </div>
+       
     );
 };
 Course.propTypes={
