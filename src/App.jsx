@@ -6,9 +6,16 @@ import Header from './Component/Header/Header'
 
 function App() {
 const [coursename,setcoursename]=useState([]);
-const handleclick1=course=>{
+const [credithour,setcredithour]=useState(20);
+const [totalcredit,settotalcredit]=useState(0);
+const [totalprice,settotalprice]=useState(0);
+const handleclick1=(course,time,price)=>{
   const newcoursemark = [...coursename,course];
   setcoursename(newcoursemark);
+     setcredithour(credithour-time);
+     settotalcredit(totalcredit+time);
+     settotalprice(totalprice+price);
+     
 }
   return (
     <>
@@ -16,7 +23,7 @@ const handleclick1=course=>{
       <Header></Header>
       <div className='flex'>
       <Courses  handleclick1={handleclick1}></Courses>
-      <Coursemark coursename={coursename}></Coursemark>
+      <Coursemark coursename={coursename} credithour={credithour} totalcredit={totalcredit} totalprice={totalprice}></Coursemark>
       </div>
      
       </div>
