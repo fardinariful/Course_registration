@@ -21,7 +21,7 @@ const handleclick1=(course,time,price)=>{
     <>
       <div className='container mx-auto p-10'>
       <Header></Header>
-      <div className='flex'>
+      <div className='flex mt-4'>
       <Courses  handleclick1={handleclick1}></Courses>
       <Coursemark coursename={coursename} credithour={credithour} totalcredit={totalcredit} totalprice={totalprice}></Coursemark>
       </div>

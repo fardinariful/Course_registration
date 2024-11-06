@@ -15,7 +15,7 @@ const Courses = ({handleclick1}) => {
     ,[])   
     return (
         <div>
-            <h3>Courses:{courses.length}</h3>
+           
             <div className="w-2/3 grid grid-cols-3 gap-x-52 gap-y-4 ">
             {
                 courses.map((course,idx)=> <Course key={idx} course={course} handleclick1={handleclick1}></Course>)
